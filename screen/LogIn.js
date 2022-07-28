@@ -9,11 +9,11 @@ import {
   ScrollView,
 } from "react-native";
 import UserInput from "../components/Input";
-import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
+import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view'
 
-const LogIn = () => {
+const LogIn = ({navigation}) => {
   return (
-    <KeyboardAwareScrollView Style={styles.container}>
+    <KeyboardAwareScrollView contentContainerStyle={styles.container}>
       <Image source={require("../assets/logo.png")} style={styles.logo} />
       <Text style={styles.title}>Log In</Text>
       <UserInput name="Email" />
