@@ -5,7 +5,7 @@ import react from "react";
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-const Stack = createNativeStackNavigator();
+const Stack = createNativeStackNavigator(); // not understand yet
 export default function App() {
   // return <LogIn />;
   //return <Register/>
